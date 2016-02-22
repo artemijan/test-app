@@ -1,0 +1,564 @@
+/*---------------- Fonts ----------------*/
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-reg.eot');
+    src: url('../fonts/pfagorasanspro-reg.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-reg.woff') format('woff'),
+         url('../fonts/pfagorasanspro-reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-italic.eot');
+    src: url('../fonts/pfagorasanspro-italic.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-italic.woff') format('woff'),
+         url('../fonts/pfagorasanspro-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-xthin.eot');
+    src: url('../fonts/pfagorasanspro-xthin.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-xthin.woff') format('woff'),
+         url('../fonts/pfagorasanspro-xthin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-xthinitalic.eot');
+    src: url('../fonts/pfagorasanspro-xthinitalic.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-xthinitalic.woff') format('woff'),
+         url('../fonts/pfagorasanspro-xthinitalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-thin.eot');
+    src: url('../fonts/pfagorasanspro-thin.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-thin.woff') format('woff'),
+         url('../fonts/pfagorasanspro-thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-thinital.eot');
+    src: url('../fonts/pfagorasanspro-thinital.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-thinital.woff') format('woff'),
+         url('../fonts/pfagorasanspro-thinital.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-light.eot');
+    src: url('../fonts/pfagorasanspro-light.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-light.woff') format('woff'),
+         url('../fonts/pfagorasanspro-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-lightital.eot');
+    src: url('../fonts/pfagorasanspro-lightital.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-lightital.woff') format('woff'),
+         url('../fonts/pfagorasanspro-lightital.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-medium.eot');
+    src: url('../fonts/pfagorasanspro-medium.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-medium.woff') format('woff'),
+         url('../fonts/pfagorasanspro-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-mediumital.eot');
+    src: url('../fonts/pfagorasanspro-mediumital.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-mediumital.woff') format('woff'),
+         url('../fonts/pfagorasanspro-mediumital.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-bold.eot');
+    src: url('../fonts/pfagorasanspro-bold.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-bold.woff') format('woff'),
+         url('../fonts/pfagorasanspro-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-bolditalic.eot');
+    src: url('../fonts/pfagorasanspro-bolditalic.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-bolditalic.woff') format('woff'),
+         url('../fonts/pfagorasanspro-bolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-black.eot');
+    src: url('../fonts/pfagorasanspro-black.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-black.woff') format('woff'),
+         url('../fonts/pfagorasanspro-black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-blackital.eot');
+    src: url('../fonts/pfagorasanspro-blackital.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-blackital.woff') format('woff'),
+         url('../fonts/pfagorasanspro-blackital.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-ultrablack.eot');
+    src: url('../fonts/pfagorasanspro-ultrablack.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-ultrablack.woff') format('woff'),
+         url('../fonts/pfagorasanspro-ultrablack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Agora';
+    src: url('../fonts/pfagorasanspro-ultrablackit.eot');
+    src: url('../fonts/pfagorasanspro-ultrablackit.eot@#iefix') format('embedded-opentype'),
+         url('../fonts/pfagorasanspro-ultrablackit.woff') format('woff'),
+         url('../fonts/pfagorasanspro-ultrablackit.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+/*---------------- Reset ----------------*/
+
+html,body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+button,img{border:0;vertical-align:middle}
+ul,li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{font-size:100%;}
+body,td,div,input,textarea,select {font-style:normal;font-weight:normal;}
+*:focus{outline:none}
+header,footer,nav,section,article,aside{display:block}
+iframe{border:0}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#9db6c1;}
+input::-moz-placeholder,textarea::-moz-placeholder{color:#9db6c1;}
+input::-ms-input-placeholder,textarea::-ms-input-placeholder {color:#9db6c1;}
+input.placeholder,textarea.placeholder{color:#9db6c1;}
+
+	input.si-error::-webkit-input-placeholder,textarea.si-error::-webkit-input-placeholder{color:#cb0707;}
+	input.si-error::-moz-placeholder,textarea.si-error::-moz-placeholder{color:#cb0707;}
+	input.si-error::-ms-input-placeholder,textarea.si-error::-ms-input-placeholder {color:#cb0707;}
+	input.si-error.placeholder,textarea.si-error.placeholder{color:#cb0707;}
+
+label{cursor:pointer}
+
+input[type=text],input[type=password],input[type=email],input[type=tel],textarea{font:18px Agora;background:#fff;border:0;padding:6px 15px;color:#1e1a17;width:200px;margin:10px 0;position:relative;-webkit-box-shadow:0 -1px 0 rgba(0,0,0,.3);-moz-box-shadow:0 -1px 0 rgba(0,0,0,.3);box-shadow:0 -1px 0 rgba(0,0,0,.3);behavior:url(../../PIE/PIE.php);}
+	input[type=text].si-error,input[type=password].si-error,input[type=email].si-error,input[type=tel].si-error,textarea.si-error{color:#cb0707;border-color:#cb0707}
+input[type=submit],button{cursor:pointer;border:0;margin:10px 0;padding:7px 0 6px;width:230px;position:relative;background:#ffbf00;border-bottom:5px solid #de8e12;color:#202020;font:500 18px/20px Agora;text-shadow:0 1px 0 rgba(255,255,255,.4);letter-spacing:-0.5px}
+input[type=submit]:hover,button:hover{background:#ffc823;border-color:#e0992b}
+input[type=submit]:active,button:active{background:#e8ae00;border-color:#cf830d;border-bottom:2px solid #cf830d;top:3px;}
+
+
+/*---------------- Styles ----------------*/
+
+html{background:#fff;color:#1e1a17;font:14px/20px Agora}
+html,body{min-width:1050px}
+#global-wrapper{overflow:hidden;position:relative}
+
+h1{}
+h2{font:800 60px/60px Agora;padding:35px 0;text-align:center;letter-spacing:-0.5px}
+h3{font:700 24px/30px Agora;text-shadow:0 1px 0 rgba(255,255,255,.4);padding:0 0 10px}
+h4{width:640px;padding-left:17px;height:136px;margin:0 auto;position:relative;margin-top:-25px;background:url(../images/splash.png) center top no-repeat;font:700 24px/146px Agora;text-align:center;text-shadow:0 1px 0 rgba(255,255,255,.4);letter-spacing:-1px}
+h5{}
+h6{}
+
+ul{margin:0}
+	ul li{font:18px/26px Agora;padding:0 0 0 30px;background:url(../images/li.png) left 9px no-repeat}
+		ul li sup{position:relative;vertical-align:middle;top:-8px;}
+
+p{padding:5px 0}
+
+a{text-decoration:none;}
+a:hover{}
+	a.button{display:inline-block;margin:5px 0;padding:7px 20px 6px;position:relative;background:#ffbf00;border-bottom:5px solid #de8e12;color:#202020;font:500 18px/20px Agora;text-decoration:none;text-shadow:0 1px 0 rgba(255,255,255,.4)}
+	a.button:hover{background:#ffc823;border-color:#e0992b}
+	a.button:active{background:#e8ae00;border-color:#cf830d;border-bottom:2px solid #cf830d;top:3px;margin-bottom:8px}
+
+	a.button.small{padding:7px 10px 6px;font:500 14px/20px Agora;}
+	
+	a.button.red{background:#f62222;border-color:#d12020;color:#fff;text-shadow:none;padding:8px 50px 7px;font-weight:500}
+	a.button.red:hover{background:#f84040;border-color:#e13737}
+	a.button.red:active{background:#e61515;border-color:#c01717}
+
+.clear {clear:both}
+.centered{width:940px;margin:0 auto;position:relative}
+.last-line-hack{width:100%;display:inline-block;height:0;visibility:hidden}
+
+.icon{display:inline-block;vertical-align:top;position:relative;background:url(../images/icons.png) no-repeat}
+	.key-icon{width:32px;height:72px;background-position:0 0;top:-12px;margin:0 15px 0 0}
+	.design-icon{width:27px;height:35px;background-position:-440px 0;top:-2px;margin:0 15px 0 0;vertical-align: middle;}
+	.art-icon{width:35px;height:35px;background-position:-440px -39px;top:-2px;margin:0 15px 0 0;vertical-align: middle;}
+	.form-icon{width:46px;height:75px;background-position:-477px 0;margin:5px 25px 0 -5px;display:block;float:left}
+	.title-icon{width:60px;height:60px;margin:0 15px 0 0}
+		.title-icon.services-icon{background-position:-68px 0}
+		.title-icon.extra-icon{background-position:-130px 0}
+		.title-icon.projects-icon{background-position:-192px 0}
+		.title-icon.why-icon{background-position:-254px 0}
+		.title-icon.how-icon{background-position:-316px 0}
+		.title-icon.contacts-icon{background-position:-378px 0}
+	
+header{height:976px;background:url(../images/header-bg.jpg) center top no-repeat}
+	#logo{position:absolute;top:27px;left:79px;display:block;background:url(../images/logo.png) left top no-repeat;color:#1e1a16;font:700 14px/20px Agora;text-decoration:none;padding:12px 0 10px 70px}
+	.top-phone{position:absolute;top:35px;right:0;font:800 24px/32px Agora;color:#1d1917;text-align:right;}
+		.top-phone .button{margin:0 0 0 25px}
+		.top-phone a.phone{color:#1d1917;position:relative;top:5px}
+	.site-title{width:620px;height:218px;background:url(../images/site-title.png) no-repeat;color:#fff;position:absolute;top:156px;left:0;}
+		.site-title .left{display:block;float:left;font:800 100px/75px Agora;letter-spacing:-1px;padding:30px 0 0 30px}
+		.site-title .right{display:block;float:left;font:700 24px/30px Agora;letter-spacing:-1px;padding:110px 0 0 20px}
+	.header-form{width:320px;height:301px;background:url(../images/form-bg.jpg);position:absolute;left:58px;top:374px;text-align:center;}
+		.header-form .form-title{color:#ffbf00;font:700 24px/30px Agora;padding:25px 0 15px}
+	.header-key{position:absolute;top:405px;left:435px;font:800 48px/50px Agora;color:#202020;text-shadow:0 1px 0 rgba(255,255,255,.4)}
+	.header-usp{background:#fff;border:2px dashed #202020;padding:25px;position:absolute;top:480px;left:435px}
+	.header-race{color:#f62222;font:italic 500 18px/24px Agora;position:absolute;left:780px;top:630px;}
+	.header-usp2{width:480px;background:url(../images/header-usp.png) no-repeat;position:absolute;top:745px;left:-10px}
+		.header-usp-item{float:left;width:240px;text-align:center;font:800 18px/26px Agora;}
+			.header-usp-item b{font:300 60px/60px Agora;display:block;padding:15px 0 15px;letter-spacing:-1px}
+			.header-usp-item sup{position:relative;vertical-align:middle;top:-18px;font-size:35px}
+	.header-reviews{position:absolute;top:660px;left:485px;width:417px;background:url(../images/reviews-bg.png) left 65px no-repeat;padding:20px 50px  0 40px}
+		.header-reviews h3{padding:20px 0 30px 0}
+		.reviews-slider-wrapper-2{width:479px;height:197px;background:url(../images/reviews-bg.png) no-repeat;position:relative;top:-10px}
+		.reviews-slider-wrapper{width:479px;height:197px;overflow:hidden}
+			.reviews-slider{width:479px;}
+		
+#services{padding:0 0 0}
+	.services-line{width:240px;float:left;margin:20px 0 0;position:relative}
+	.services-line.line-1{margin-left:60px}
+	.services-line.line-2{z-index:2}
+	.services-line.line-2,.services-line.line-3{margin-left:50px}
+		.services-item{position:relative;margin:0 0 70px}
+			.service-title{height:95px;background:url(../images/services-gradients.png) repeat-x}
+			.service-title-inner{width:240px;height:95px;display:table-cell;vertical-align:middle;font:700 24px/30px Agora;text-align:center;text-shadow:0 1px 0 rgba(255,255,255,.4)}
+			.service-price{height:63px;background:url(../images/services-gradients.png) 0 -100px repeat-x}
+			.service-price-inner{width:240px;height:63px;display:table-cell;vertical-align:middle;font:18px/26px Agora;color:#fff;text-align:center;text-shadow:0 1px 0 rgba(255,255,255,.1)}
+				.service-price-inner sup{position:relative;vertical-align:middle;top:-8px;font-size:15px}
+			.service-text{background:#dcdcdc url(../images/services-gradients.png) 0 -170px repeat-x;text-align:center;padding:0 0 20px}
+			.service-text.hidden{display:none}
+				.service-text h3{text-align:center;font:800 18px/26px Agora;padding:15px 0}
+				.service-text ul{margin:0 0 15px}
+					.service-text ul li{font:14px/26px Agora;padding-left:22px;color:#1d1915;margin-left:22px;text-align:left}
+			.service-collapse{width:60px;height:31px;background:url(../images/collapse.png) no-repeat;position:absolute;bottom:-31px;left:50%;margin-left:-30px;cursor:pointer;}
+			.service-collapse.disabled{cursor:default}
+			.service-collapse.collapse{background-position:-62px 0}
+			.service-shadow{width:9px;height:399px;background:url(../images/shadows.png) no-repeat;position:absolute;top:270px;z-index:2}
+			.collapse .service-shadow{display:none}
+				.service-shadow.l{left:-9px}
+				.service-shadow.r{background-position:-11px 0;right:-9px}
+			.service-green{position:absolute;top:5px;background:url(../images/green.jpg) no-repeat}
+				.service-green.l{width:92px;height:301px;background-position:0 0;left:-92px;top:25px}
+				.service-green.r{width:80px;height:298px;background-position:0 -305px;right:-80px;top:85px}
+					.collapse .service-green.l{top:10px}
+					.collapse .service-green.r{top:60px}
+				.service-green.l-reverse{width:80px;height:298px;background-position:-95px -305px;left:-80px;top:45px}
+				.service-green.r-reverse{width:92px;height:301px;background-position:-95px 0;right:-92px;top:15px}
+					.collapse .service-green.l-reverse{top:50px}
+					.collapse .service-green.r-reverse{top:20px}
+				
+				.show-service-extra{cursor:pointer;padding:0 0 15px;color:#89a535;font:800 18px/26px Agora;text-decoration:underline;text-shadow:0 1px 0 rgba(255,255,255,.4)}
+				.show-service-extra:hover{text-decoration:none}
+				.service-extra{display:none;}
+				.service-extra{display:none;}
+					
+#extra{height:1177px;background:url(../images/extra-bg.jpg) center top no-repeat}
+	#extra h2{font-size:48px}
+	.extra-item{background:#fff;border:2px dashed #1d1915;padding:30px 22px 20px;overflow:hidden;margin:10px 0 40px}
+		.extra-image{float:left;margin-right:30px}
+		.extra-item-text{overflow:hidden}
+	.extra-slider-block{position:relative;margin-top:-43px;height:230px;padding:35px 0 0;background:url(../images/extra-slider-bg.jpg) center top no-repeat}
+		.extra-slider-wrapper{width:780px;overflow:hidden;margin:10px auto;}
+		.extra-slider{width:780px;position:relative;left:0;margin:0 auto}
+			.extra-slider-item img{border:3px solid #fff}
+					
+.page-form-block{height:281px;background:url(../images/page-form-bg.jpg) center top no-repeat}
+	.page-form-title{float:left;width:430px;background:url(../images/page-form-title.png) left 35px no-repeat;padding:55px 0 20px 30px;position:relative;margin-left:-30px}
+		.page-form-title-text{overflow:hidden;color:#fff;font:800 48px/54px Agora;letter-spacing:-0.5px}
+	.page-form{float:right;position:relative;padding:45px 0 0}
+		.page-form input[type=text],.page-form input[type=tel]{width:270px}
+		.page-form input[type=submit]{width:300px;font-weight:700}
+		.form-race{text-align:center;color:#fff;font:italic 500 18px/24px Agora;padding:10px 0 0}
+	.page-form-center{font:700 24px/30px Agora;color:#fff;position:absolute;top:90px;left:430px}
+	.page-form-center.type-2{top:40px}
+		.page-form-center2{width:182px;height:88px;background:url(../images/page-form-center.png) no-repeat;padding:10px 0 0 20px;font:italic 500 14px/24px Agora;color:#fff;position:absolute;left:410px;top:150px}
+	
+#certs{min-height:590px;background:#fff url(../images/certs-bg.jpg) center top no-repeat;text-align:center;padding-top:60px}
+#certs .centered{font:700 24px/30px Agora;text-shadow:0 1px 0 rgba(255,255,255,.4)}
+	.certs-title{background:url(../images/site-title.png);display:inline-block;padding:6px 25px;color:#fff;font:800 100px/100px Agora;margin:0 0 35px;}
+	.certs{text-align:justify;padding:50px 0 00px}
+		.cert-item{display:inline-block;}
+	.see-help{color:#89a535;font:italic 500 18px/24px Agora;text-decoration:underline}
+	.certs-next{display:block;width:60px;height:30px;background:url(../images/collapse.png) right top no-repeat;position:relative;left:50%;margin-left:-30px;bottom:-30px}
+	
+#projects{padding:20px 0 50px;background:url(../images/projects-bg.jpg) center top no-repeat;background-size:cover}
+	.project-item{background:#fff;border:2px dashed #1d1915;padding:85px 65px 20px 65px;overflow:hidden;margin:15px 0 50px}
+		.project-item-before{float:left;position:relative;}
+			.project-item-before span{display:block;width:182px;height:91px;background:url(../images/project-splash.png) no-repeat;color:#fff;font:700 24px/91px Agora;text-align:center;position:absolute;top:-45px;left:94px;}
+			.project-item-before img{border:6px solid #9dbc44}
+		.project-item-after{float:right;position:relative;}
+			.project-item-after span{display:block;width:182px;height:91px;background:url(../images/project-splash.png) no-repeat;color:#fff;font:700 24px/91px Agora;text-align:center;position:absolute;top:-45px;left:94px;}
+			.project-item-after img{border:6px solid #9dbc44}
+		.project-info{padding:35px 0 20px;text-align:center}
+			.project-info-item{display:inline-block;vertical-align:top;margin:0 40px}
+				.project-info-item b{display:block;margin:0 0 20px;font:700 24px/30px Agora}
+	
+#why{background:url(../images/why-bg.png) center top no-repeat;padding:10px 0 0}
+	#why h2{font-size:48px}
+	.why-item{width:470px;float:left;margin:20px 0 40px}
+		.why-image{width:161px;height:161px;background:url(../images/why.png) no-repeat;float:left;margin:0 30px 0 0}
+			.why-image.i-2{background-position:-165px 0}
+			.why-image.i-3{background-position:-330px 0}
+			.why-image.i-4{background-position:-495px 0}
+			.why-image.i-5{background-position:-660px 0}
+			.why-image.i-6{background-position:-825px 0}
+			.why-image.i-7{background-position:-990px 0}
+			.why-image.i-8{background-position:-1155px 0}
+			.why-image.i-9{background-position:-1320px 0}
+		.why-text{overflow:hidden;letter-spacing:-0.5px}
+			.why-text h3{letter-spacing:-1px}
+	
+#how{height:720px;background:url(../images/how-bg.jpg) center top no-repeat;padding:10px 0 0}
+	.steps{position:relative;}
+		.step-item{position:absolute;top:10px;width:600px}
+			.step-item.i-1{left:-20px}
+			.step-item.i-2{left:340px}
+			.step-item.i-3{left:700px}
+			.step-item.i-4{top:290px;left:700px}
+			.step-item.i-5{top:290px;left:340px}
+			.step-item.i-6{top:338px;left:5px}
+		.step-counter{font:128px/130px Agora;float:left;margin:0 20px 0 0;letter-spacing:-10px}
+		.step-text{overflow:hidden;padding:15px 0 0}
+			.step-text h3{padding:0 0 20px}
+		
+		.step-arrow{position:absolute;background:url(../images/icons.png) no-repeat}
+			.step-arrow.a-1{width:100px;height:30px;background-position:0 -76px;top:20px;left:200px}
+			.step-arrow.a-2{width:93px;height:23px;background-position:-102px -76px;top:30px;left:580px}
+			.step-arrow.a-3{width:42px;height:116px;background-position:0 -108px;top:200px;left:960px}
+			.step-arrow.a-4{width:53px;height:19px;background-position:-44px -108px;top:430px;left:635px}
+			.step-arrow.a-5{width:100px;height:38px;background-position:-44px -130px;top:400px;left:210px}
+		
+#contacts{height:379px;background:url(../images/contacts-bg.jpg) center top no-repeat;text-align:center}
+	.contacts-item{display:inline-block;vertical-align:top;font:18px/30px Agora;width:310px;margin:30px 0 0}
+	.contacts-item.with-bg{background:url(../images/contacts-splash.png) 16px 0px no-repeat;padding:0 0 40px}
+		.contacts-item span{font:700 24px/30px Agora;text-transform:uppercase;display:block;padding:0 0 30px}
+		.contacts-item b{font:700 24px/30px Agora}
+	
+#map{height:400px;border:2px dashed #1d1915;border-width:2px 0}
+
+#bottom{height:117px;background:url(../images/bottom-bg.jpg) center top no-repeat;text-align:justify}
+	#bottom a{display:inline-block;color:#8b8b8b;font:italic 500 18px/117px Agora;text-decoration:none}
+	#bottom a:hover{text-decoration:none;color:#fff}
+	
+footer{padding:20px 0;text-align:center;font:500 14px/20px Agora;}
+	footer a{color:#9dbc44;text-decoration:underline}
+	footer a:hover{text-decoration:none}
+
+
+
+
+
+
+
+
+
+.si-overlay{display:none;background:url(../images/si-overlay.png);position:absolute;top:0;left:0;z-index:103;width:100%;height:100%}
+
+.si-modal{display:none;background:#92af38;color:#fff;padding:30px;position:fixed;top:50px;left:50%;z-index:104;text-align:center;margin-left:-175px;width:330px;-webkit-box-shadow:0 10px 60px #000;-moz-box-shadow:0 10px 60px #000;box-shadow:0 10px 60px #000;behavior:url(../../PIE/PIE.php)}		
+	.si-modal .form-title{padding:0 0 20px;font: 700 24px/30px Agora;}		
+	.si-close{display:block;width:19px;height:19px;background:url(../images/icons.png) -200px -76px no-repeat;position:absolute;right:15px;top:15px;}		
+
+.si-success-modal{display:none;background:#fff;padding:10px 30px 50px;position:fixed;top:50%;left:50%;z-index:105;text-align:center;margin-left:-315px;margin-top:-190px;width:580px}
+
+
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-pagination{text-align:left;margin-left:40px}
+.extra-slider-block .owl-pagination{text-align:center;margin:20px 0 0}
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;text-align:left;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 0 3px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #705e4a;
+}
+
+.extra-slider-block .owl-theme .owl-controls .owl-page span{
+	background:#fff
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background:#000
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+}
